@@ -24,7 +24,7 @@ class ContatosController {
         $userApp = $this->ss->getUserApp();
 
         if($userApp === NULL){
-            header( 'Location: /'.PROJECTDIR.'/login/index');
+            header( 'Location: '.PROJECTDIR.'login/index');
         }
 
         $listaContatos = Contato::all();
@@ -36,7 +36,7 @@ class ContatosController {
         $userApp = $this->ss->getUserApp();
 
         if($userApp === NULL){
-            header( 'Location: /'.PROJECTDIR.'/login/index');
+            header( 'Location: '.PROJECTDIR.'login/index');
         }
         
         
@@ -55,7 +55,7 @@ class ContatosController {
         $userApp = $this->ss->getUserApp();
 
         if($userApp === NULL){
-            header( 'Location: /'.PROJECTDIR.'/login/index');
+            header( 'Location: '.PROJECTDIR.'login/index');
         }
 
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -81,7 +81,7 @@ class ContatosController {
         
         Contato::deletar($id);
 
-        header( 'Location: /'.PROJECTDIR.'/contatos/index');
+        header( 'Location: '.PROJECTDIR.'contatos/index');
     }
 
     public function error() {

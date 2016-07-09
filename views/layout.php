@@ -3,8 +3,8 @@
 <html>
 <head>
   <title>Lista Contatos</title>
-  <link rel="stylesheet" type="text/css" href="<?php  echo PROJECTDIR; ?>/content/lib/bootstrap/bootstrap-3.3.6-dist/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="<?php  echo PROJECTDIR; ?>/content/css/site.css">
+  <link rel="stylesheet" type="text/css" href="<?php  echo PROJECTDIR; ?>content/lib/bootstrap/bootstrap-3.3.6-dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="<?php  echo PROJECTDIR; ?>content/css/site.css">
 
     <!-- Website Font style -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
@@ -37,18 +37,18 @@
                     <a class="navbar-brand" href="#"><?php echo APPNAME; ?></a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li><a href="/<?php  echo PROJECTDIR; ?>/contatos/index">Home</a></li>
+                    <li><a href="<?php  echo PROJECTDIR; ?>contatos/index">Home</a></li>
 
                     <?php
                         if ($idUser === NULL){
                     ?>
 
-                    <li><a href="/<?php  echo PROJECTDIR; ?>/login/index">Login</a></li>
-                    <li><a href="/<?php  echo PROJECTDIR; ?>/login/register">Register</a></li>
+                    <li><a href="<?php  echo PROJECTDIR; ?>login/index">Login</a></li>
+                    <li><a href="<?php  echo PROJECTDIR; ?>login/register">Register</a></li>
                     <?php
                         }else{
                     ?>
-                            <li><a href="/<?php  echo PROJECTDIR; ?>/login/logout">Log Out</a></li>
+                            <li><a href="<?php  echo PROJECTDIR; ?>login/logout">Log Out</a></li>
                     <?php }?>
                 </ul>
             </div>

@@ -23,7 +23,7 @@ class LoginController{
 
               $ss->setUserApp($AppUser->id);
 
-              header( 'Location: /'.PROJECTDIR.'/contatos/index');
+              header( 'Location: '.PROJECTDIR.'contatos/index');
               
           }
         }
@@ -54,6 +54,6 @@ class LoginController{
 
     public function  logout(){
         session_destroy();
-        header( 'Location: /'.PROJECTDIR.'/login/index');
+        header( 'Location: '.PROJECTDIR.'login/index');
     }
 }
