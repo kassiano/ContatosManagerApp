@@ -53,7 +53,7 @@ class AppUser{
             $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
             // we make sure $id is an integer
-            $req = $db->prepare('SELECT * FROM appUser WHERE email = :email and password = :password');
+            $req = $db->prepare("SELECT * FROM \"appUser\" WHERE email = :email and password = :password");
             $req->bindParam(':email', $email , PDO::PARAM_STR );
             $req->bindParam(':password', $passwd , PDO::PARAM_STR);
 
