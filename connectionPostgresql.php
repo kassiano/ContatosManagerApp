@@ -23,6 +23,8 @@ class Db {
             $passwd ="VUQmqGu0Fzw8IQ3d4eitor078a";
 
             self::$instance = new PDO("pgsql:host=$host dbname=$database user=$user password=$passwd");
+            self::$instance->exec('SET search_path TO public');
+            
         }
         return self::$instance;
     }
