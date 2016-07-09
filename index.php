@@ -14,8 +14,8 @@
 
     session_start();
     require_once('Config.php');
-    require_once('connectionMysql.php');
-    //require_once ("connectionPostgresql.php");
+    //require_once('connectionMysql.php');
+    require_once ("connectionPostgresql.php");
     require_once ('helper/session_manager.php');
 
 
