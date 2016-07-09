@@ -35,7 +35,7 @@ class AppUser{
     public static function all(){
         $list = [];
         $db = Db::getInstance();
-        $req = $db->query('SELECT * FROM appUser');
+        $req = $db->query('SELECT * FROM '.DBSCHEMA.'appUser');
 
         // we create a list of Post objects from the database results
         foreach($req->fetchAll() as $user) {
@@ -53,7 +53,7 @@ class AppUser{
             $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
             // we make sure $id is an integer
-            $req = $db->prepare('SELECT * FROM appUser WHERE email = :email and password = :password');
+            $req = $db->prepare('SELECT * FROM '.DBSCHEMA.'appUser WHERE email = :email and password = :password');
             $req->bindParam(':email', $email , PDO::PARAM_STR );
             $req->bindParam(':password', $passwd , PDO::PARAM_STR);
 
@@ -74,7 +74,7 @@ class AppUser{
         $db = Db::getInstance();
         // we make sure $id is an integer
         $id = intval($id);
-        $req = $db->prepare('SELECT * FROM appUser WHERE ID = :id');
+        $req = $db->prepare('SELECT * FROM '.DBSCHEMA.'appUser WHERE ID = :id');
         // the query was prepared, now we replace :id with our actual $id value
         $req->execute(array('id' => $id));
         $user = $req->fetch();
@@ -89,7 +89,7 @@ class AppUser{
             $db = Db::getInstance();
             $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-            $stmt = $db->prepare("INSERT INTO appUser (ID, userName, email, password,AndroidToken) VALUES (:id ,:userName, :email, :password, :AndroidToken)");
+            $stmt = $db->prepare("INSERT INTO ".DBSCHEMA."appUser (ID, userName, email, password,AndroidToken) VALUES (:id ,:userName, :email, :password, :AndroidToken)");
             $stmt->bindParam(':id', $appUser->id , PDO::PARAM_STR );
             $stmt->bindParam(':userName', $appUser->userName , PDO::PARAM_STR);
             $stmt->bindParam(':email', $appUser->email, PDO::PARAM_STR);

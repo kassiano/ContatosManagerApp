@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb414d4a-b945-46a6-8cce-2dd8fb4689ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/connectionPostgresql.php" afterPath="$PROJECT_DIR$/connectionPostgresql.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Config.php" afterPath="$PROJECT_DIR$/Config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/contatos.php" afterPath="$PROJECT_DIR$/models/contatos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/usuario.php" afterPath="$PROJECT_DIR$/models/usuario.php" />
     </list>
     <ignored path="blogphp_mvc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,17 +26,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="layout.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layout.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -45,12 +36,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Config.php">
+      <file leaf-file-name="contatos.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/contatos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="237">
+              <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
+              <folding>
+                <marker date="1468107180117" expanded="true" signature="647:660" placeholder="SELECT * FRO... " />
+                <marker date="1468107180117" expanded="true" signature="647:672" placeholder="SELECT * FRO... " />
+                <marker date="1468107180117" expanded="true" signature="647:681" placeholder="SELECT * FRO... contatos" />
+                <marker date="1468107180117" expanded="true" signature="647:698" placeholder="SELECT * FRO... contatos" />
+                <marker date="1468107180117" expanded="true" signature="1383:1485" placeholder="INSERT INTO contatos... " />
+                <marker date="1468107180117" expanded="true" signature="2101:2150" placeholder="SELECT * FRO... contatos" />
+                <marker date="1468107180117" expanded="true" signature="2636:2714" placeholder="UPDATE conta... " />
+                <marker date="1468107180117" expanded="true" signature="3302:3325" placeholder="DELETE FROM " />
+                <marker date="1468107180117" expanded="true" signature="3302:3347" placeholder="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuario.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/usuario.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+                <marker date="1468107228153" expanded="true" signature="758:791" placeholder="SELECT * FRO... appUsers" />
+                <marker date="1468107228153" expanded="true" signature="1338:1387" placeholder="SELECT * FRO... appUsers" />
+                <marker date="1468107228153" expanded="true" signature="1338:1417" placeholder="SELECT * FRO... appUsers" />
+                <marker date="1468107228153" expanded="true" signature="2096:2144" placeholder="SELECT * FRO... appUsers" />
+                <marker date="1468107228153" expanded="true" signature="2624:2647" placeholder="INSERT INTO " />
+                <marker date="1468107228153" expanded="true" signature="2624:2758" placeholder="INSERT INTO appUser... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,11 +160,9 @@
         <option value="$PROJECT_DIR$/models/migrate.php" />
         <option value="$PROJECT_DIR$/../phpmyadmin/libraries/config.default.php" />
         <option value="$PROJECT_DIR$/helper/session_manager.php" />
-        <option value="$PROJECT_DIR$/models/contatos.php" />
         <option value="$PROJECT_DIR$/views/contatos/home.php" />
         <option value="$PROJECT_DIR$/routes.php" />
         <option value="$PROJECT_DIR$/routes.php" />
-        <option value="$PROJECT_DIR$/models/usuario.php" />
         <option value="$PROJECT_DIR$/views/login/register.php" />
         <option value="$PROJECT_DIR$/db/initdb.sql" />
         <option value="$PROJECT_DIR$/db/bancoPostgresql.sql" />
@@ -156,10 +173,12 @@
         <option value="$PROJECT_DIR$/controllers/login_controller.php" />
         <option value="$PROJECT_DIR$/controllers/contatos_controller.php" />
         <option value="$PROJECT_DIR$/controllers/contatos_controller.php" />
-        <option value="$PROJECT_DIR$/Config.php" />
         <option value="$PROJECT_DIR$/connectionPostgresql.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Config.php" />
+        <option value="$PROJECT_DIR$/models/contatos.php" />
+        <option value="$PROJECT_DIR$/models/usuario.php" />
       </list>
     </option>
   </component>
@@ -234,6 +253,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContatosManagerApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContatosManagerApp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,12 +378,12 @@
       <workItem from="1467302563924" duration="5153000" />
       <workItem from="1467395294188" duration="637000" />
       <workItem from="1468009801440" duration="6697000" />
-      <workItem from="1468097235819" duration="7773000" />
+      <workItem from="1468097235819" duration="8292000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70351000" />
+    <option name="totallyTimeSpent" value="70870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -538,12 +571,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1468012248941" expanded="true" signature="647:669" placeholder="SELECT * FRO... contatos" />
-            <marker date="1468012248941" expanded="true" signature="647:686" placeholder="SELECT * FRO... contatos" />
-            <marker date="1468012248941" expanded="true" signature="1371:1461" placeholder="INSERT INTO contatos... " />
-            <marker date="1468012248941" expanded="true" signature="2077:2114" placeholder="SELECT * FRO... contatos" />
-            <marker date="1468012248941" expanded="true" signature="2600:2666" placeholder="UPDATE conta... " />
-            <marker date="1468012248941" expanded="true" signature="3254:3287" placeholder="DELETE FROM " />
+            <marker date="1468107180117" expanded="true" signature="647:660" placeholder="SELECT * FRO... " />
+            <marker date="1468107180117" expanded="true" signature="647:672" placeholder="SELECT * FRO... " />
+            <marker date="1468107180117" expanded="true" signature="647:681" placeholder="SELECT * FRO... contatos" />
+            <marker date="1468107180117" expanded="true" signature="647:698" placeholder="SELECT * FRO... contatos" />
+            <marker date="1468107180117" expanded="true" signature="1383:1485" placeholder="INSERT INTO contatos... " />
+            <marker date="1468107180117" expanded="true" signature="2101:2150" placeholder="SELECT * FRO... contatos" />
+            <marker date="1468107180117" expanded="true" signature="2636:2714" placeholder="UPDATE conta... " />
+            <marker date="1468107180117" expanded="true" signature="3302:3325" placeholder="DELETE FROM " />
+            <marker date="1468107180117" expanded="true" signature="3302:3347" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -630,36 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/contatos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="67" column="9" selection-start-line="50" selection-start-column="8" selection-end-line="67" selection-end-column="9" />
-          <folding>
-            <marker date="1468012248941" expanded="true" signature="647:669" placeholder="SELECT * FRO... contatos" />
-            <marker date="1468012248941" expanded="true" signature="647:686" placeholder="SELECT * FRO... contatos" />
-            <marker date="1468012248941" expanded="true" signature="1371:1461" placeholder="INSERT INTO contatos... " />
-            <marker date="1468012248941" expanded="true" signature="2077:2114" placeholder="SELECT * FRO... contatos" />
-            <marker date="1468012248941" expanded="true" signature="2600:2666" placeholder="UPDATE conta... " />
-            <marker date="1468012248941" expanded="true" signature="3254:3287" placeholder="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/usuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1468013573511" expanded="true" signature="758:779" placeholder="SELECT * FRO... appUsers" />
-            <marker date="1468013573511" expanded="true" signature="1326:1363" placeholder="SELECT * FRO... appUsers" />
-            <marker date="1468013573511" expanded="true" signature="1326:1393" placeholder="SELECT * FRO... appUsers" />
-            <marker date="1468013573511" expanded="true" signature="2072:2108" placeholder="SELECT * FRO... appUsers" />
-            <marker date="1468013573511" expanded="true" signature="2588:2710" placeholder="INSERT INTO appUser... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/contatos/editar_contato.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -723,26 +729,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/connectionMysql.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="117" selection-start-line="18" selection-start-column="110" selection-end-line="18" selection-end-column="117" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -763,11 +753,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/contatos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
+          <folding>
+            <marker date="1468107180117" expanded="true" signature="647:660" placeholder="SELECT * FRO... " />
+            <marker date="1468107180117" expanded="true" signature="647:672" placeholder="SELECT * FRO... " />
+            <marker date="1468107180117" expanded="true" signature="647:681" placeholder="SELECT * FRO... contatos" />
+            <marker date="1468107180117" expanded="true" signature="647:698" placeholder="SELECT * FRO... contatos" />
+            <marker date="1468107180117" expanded="true" signature="1383:1485" placeholder="INSERT INTO contatos... " />
+            <marker date="1468107180117" expanded="true" signature="2101:2150" placeholder="SELECT * FRO... contatos" />
+            <marker date="1468107180117" expanded="true" signature="2636:2714" placeholder="UPDATE conta... " />
+            <marker date="1468107180117" expanded="true" signature="3302:3325" placeholder="DELETE FROM " />
+            <marker date="1468107180117" expanded="true" signature="3302:3347" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <marker date="1468107228153" expanded="true" signature="758:791" placeholder="SELECT * FRO... appUsers" />
+            <marker date="1468107228153" expanded="true" signature="1338:1387" placeholder="SELECT * FRO... appUsers" />
+            <marker date="1468107228153" expanded="true" signature="1338:1417" placeholder="SELECT * FRO... appUsers" />
+            <marker date="1468107228153" expanded="true" signature="2096:2144" placeholder="SELECT * FRO... appUsers" />
+            <marker date="1468107228153" expanded="true" signature="2624:2647" placeholder="INSERT INTO " />
+            <marker date="1468107228153" expanded="true" signature="2624:2758" placeholder="INSERT INTO appUser... " />
+          </folding>
         </state>
       </provider>
     </entry>
