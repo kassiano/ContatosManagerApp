@@ -7,6 +7,6 @@
  */
 
 //define("PROJECTDIR", "/ContatosManagerApp/");
-define("PROJECTDIR", "");
+define("PROJECTDIR", "/");
 
 define("APPNAME","Contatos Manager App 2.0");

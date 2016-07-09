@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cb414d4a-b945-46a6-8cce-2dd8fb4689ba" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Config.php" afterPath="$PROJECT_DIR$/Config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/contatos_controller.php" afterPath="$PROJECT_DIR$/controllers/contatos_controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/login_controller.php" afterPath="$PROJECT_DIR$/controllers/login_controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.php" afterPath="$PROJECT_DIR$/views/layout.php" />
     </list>
     <ignored path="blogphp_mvc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,8 +57,8 @@
       <file leaf-file-name="Config.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="68">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -357,12 +354,12 @@
       <workItem from="1467302563924" duration="5153000" />
       <workItem from="1467395294188" duration="637000" />
       <workItem from="1468009801440" duration="6697000" />
-      <workItem from="1468097235819" duration="6272000" />
+      <workItem from="1468097235819" duration="6395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68850000" />
+    <option name="totallyTimeSpent" value="68973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -777,8 +774,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        <state relative-caret-position="68">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding />
         </state>
       </provider>
