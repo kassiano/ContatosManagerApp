@@ -11,17 +11,32 @@
     header("Pragma: no-cache");
 
 
+
+    session_start();
     require_once('Config.php');
-    require_once('connection.php');
+    require_once('connectionMysql.php');
+    //require_once ("connectionPostgresql.php");
+    require_once ('helper/session_manager.php');
 
 
-    if (isset($_GET['controller']) && isset($_GET['action'])) {
+
+/*
+    if(isset($_GET['controller']) && $_GET['controller'] != ''){
         $controller = $_GET['controller'];
-        $action     = $_GET['action'];
-    } else {
-        $controller = 'contatos';
-        $action     = 'home';
+    }else {
+        $controller = 'login';
     }
+
+    if(isset($_GET['action']) && $_GET['action'] != ''){
+        $action = $_GET['action'];
+    }else {
+        $action = 'index';
+    }
+*/
+
+$controller = $_GET['controller'];
+$action = $_GET['action'];
+
 
     if($controller == 'service'){
 

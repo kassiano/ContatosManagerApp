@@ -20,7 +20,7 @@
                     <a href="editar/<?php echo $contato->id;?>">editar</a>
                 </td>
                 <td>
-                    <a href="remover/<?php echo $contato->id;?>">remover</a>
+                    <a href="deletar/<?php echo $contato->id;?>">remover</a>
                 </td>
             </tr>
 

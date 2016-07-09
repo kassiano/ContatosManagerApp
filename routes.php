@@ -21,6 +21,11 @@
               $controller = new ContatoServiceController();
               break;
 
+          case 'login':
+              require_once('models/usuario.php');
+              $controller = new LoginController();
+              break;
+
       }
 
       // call the action
@@ -29,9 +34,10 @@
 
   // just a list of the controllers we have and their actions
   // we consider those "allowed" values
-  $controllers = array('contatos' => ['home', 'error', 'novo','editar'] ,
-                        'service' => ['getAll']
-      );
+  $controllers = array('contatos' => ['index', 'error', 'novo','editar', 'deletar'],
+                        'service' => ['getAll'],
+                        'login' =>   ['index', 'register', 'logout']
+  );
 
   // check that the requested controller and action are both allowed
   // if someone tries to access something else he will be redirected to the error action of the contatos controller

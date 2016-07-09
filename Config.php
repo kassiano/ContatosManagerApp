@@ -6,4 +6,6 @@
  * Time: 20:47
  */
 
-define("PROJECTDIR", "contatos_mvc");
+define("PROJECTDIR", "ContatosManagerApp");
+
+define("APPNAME","Contatos Manager App 2.0");
