@@ -3,8 +3,8 @@
 <html>
 <head>
   <title>Lista Contatos</title>
-  <link rel="stylesheet" type="text/css" href="/<?php  echo PROJECTDIR; ?>/content/lib/bootstrap/bootstrap-3.3.6-dist/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="/<?php  echo PROJECTDIR; ?>/content/css/site.css">
+  <link rel="stylesheet" type="text/css" href="<?php  echo PROJECTDIR; ?>/content/lib/bootstrap/bootstrap-3.3.6-dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="<?php  echo PROJECTDIR; ?>/content/css/site.css">
 
     <!-- Website Font style -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
